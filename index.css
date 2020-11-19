@@ -46,10 +46,6 @@ body{
     margin-right: 15px;
 }
 
-.file_type .file_progress{
-    width: calc(100% - 60px);
-    font-size: 14px;
-}
 
 .file_type .info,
 .file_type .file_size_wrap{
@@ -62,28 +58,6 @@ body{
     justify-content: space-between;
 }
 
-.file_type .progress{
-    width: 100%;
-    height: 4px;
-    background: #efefef;
-    border-radius: 5px;
-    overflow: hidden;
-    margin-top: 8px;
-    position: relative;
-}
-
-.file_type .file_size{
-    margin-right: 15px;
-}
-
-.file_type .progress .inner{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #58e380;
-}
 
 .file_type .file_close{
     border: 1px solid #8178d3;
